@@ -21,6 +21,4 @@ public class ListResource {
         String property = System.getProperty("user.home");
         return listService.getResponse("", property + "/files-test");
     }
-
-
 }
